@@ -3,7 +3,7 @@
 
 ## 1. 动态数组
 
-    + **声明初始化**
++ **声明初始化**
 
 ```{c}
 vector<int> v;
@@ -20,7 +20,7 @@ vector<int> v(10);
 vector<int> v(10, 5);   // initial value 5
 ```
 
-    + **获取**
++ **获取**
 
 ```{c}
 
@@ -36,7 +36,7 @@ for (auto x: v) {
 }
 ```
 
-    + **字符数组**
++ **字符数组**
 
 ```{c}
 string a = "hatti";
@@ -50,8 +50,8 @@ string d = b.substr(8, 4);     // 获取从位置3开始，长度为4的字符�
 
 ## 2. 集合
 
-    + **set**, O(logn), balanced binary tree
-    + **unordered_set**, O(1) on average, hashing
++ **set**, O(logn), balanced binary tree
++ **unordered_set**, O(1) on average, hashing
 
 ```
 set<int> s;
@@ -73,7 +73,7 @@ for (auto x: s) {
 
 ```
     
-    + **multiset**, 多个数的集合
++ **multiset**, 多个数的集合
 
 ```{c}
 multiset<int> s;
